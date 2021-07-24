@@ -41,14 +41,14 @@
     </v-card-title>
 
   <v-card
-    class="sheetCard mt-4 mx-auto primary " flat
+    class="sheetCard primary mt-4 mx-auto  " flat
     
   >
     <v-sheet
       class="v-sheet--offset mx-auto"
       color="primary"
-      elevation="12"
-      max-width="calc(100% - 0px)"
+      elevation="2"
+      max-width="calc(100% - 35px)"
     >
         <v-sparkline
           :value="value"
